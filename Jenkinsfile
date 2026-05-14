@@ -30,7 +30,7 @@ pipeline {
                     sh '''
                     mvn sonar:sonar \
                     -Dsonar.projectKey=nagendrakumarredd \
-                    -Dsonar.organization=Syamala\ Nagendra\ Kumar\ Reddy \
+                    -Dsonar.organization=nagendrakumarredd \
                     -Dsonar.host.url=https://sonarcloud.io \
                     -Dsonar.login=$SONAR_TOKEN
                     '''
