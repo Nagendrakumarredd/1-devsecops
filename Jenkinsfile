@@ -29,8 +29,8 @@ pipeline {
                 withCredentials([string(credentialsId: 'SONAR_TOKEN', variable: 'SONAR_TOKEN')]) {
                     sh '''
                     mvn sonar:sonar \
-                    -Dsonar.projectKey=tejaravutla287_POC-01 \
-                    -Dsonar.organization=tejaravutla287 \
+                    -Dsonar.projectKey=nagendrakumarredd \
+                    -Dsonar.organization=Syamala Nagendra Kumar Reddy \
                     -Dsonar.host.url=https://sonarcloud.io \
                     -Dsonar.login=$SONAR_TOKEN
                     '''
