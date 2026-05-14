@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven3' // Must match the name in Jenkins Global Tool Config 
+        maven 'maven3' // Must match the name in Jenkins Global Tool Config 
     }
     environment {
         // Force the environment to use Java 21
